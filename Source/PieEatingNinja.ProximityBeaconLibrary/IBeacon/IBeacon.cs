@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PieEatingNinja.ProximityBeaconLibrary.IBeacon
+﻿namespace PieEatingNinja.ProximityBeaconLibrary.IBeacon
 {
+    /// <summary>
+    /// Representation of a Proximity Beacon according to the iBeacon protocol standardized by Apple
+    /// </summary>
     public sealed class IBeacon : ProximityBeacon
     {
         public ushort Major { get; private set; }
